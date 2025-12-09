@@ -41,7 +41,7 @@ ItemModel mango = ItemModel(
 );
 
 ItemModel papaya = ItemModel(
-  description: 'A melhor papaya da região e que conta com o melhor preço.',
+  description: 'A melhor papaya da região e que conta com o melhor preço.A melhor papaya da região e que conta com o melhor preço.A melhor papaya da região e que conta com o melhor preço.A melhor papaya da região e que conta com o melhor preço.',
   imgUrl: 'assets/fruits/papaya.png',
   itemName: 'Maçã',
   price: 8,
