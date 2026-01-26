@@ -29,7 +29,7 @@ ItemModel kiwi = ItemModel(
   imgUrl: 'assets/fruits/kiwi.png',
   itemName: 'Kiwi',
   price: 2.5,
-  unit: 'kg',
+  unit: 'Un',
 );
 
 ItemModel mango = ItemModel(
