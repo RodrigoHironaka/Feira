@@ -2,7 +2,7 @@ import 'package:greengrocer/src/models/cart_item_model.dart';
 import 'package:greengrocer/src/models/item_model.dart';
 
 ItemModel apple = ItemModel(
-  description: 'A melhor maçã da região e que conta com o melhor preço.',
+  description: 'A melhor maçã da região e que conta com o melhor preço.A melhor maçã da região e que conta com o melhor preço.',
   imgUrl: 'assets/fruits/apple.png',
   itemName: 'Maçã',
   price: 5.5,
@@ -30,7 +30,7 @@ ItemModel kiwi = ItemModel(
   imgUrl: 'assets/fruits/kiwi.png',
   itemName: 'Kiwi',
   price: 2.5,
-  unit: 'kg',
+  unit: 'Un',
 );
 
 ItemModel mango = ItemModel(

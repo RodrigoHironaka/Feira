@@ -36,14 +36,18 @@ class QuantityWidget extends StatelessWidget {
           _QuantityButton(
             icon: Icons.remove,
             color: Colors.grey,
-            onPressed: () {},
+            onPressed: () {
+              if(value == 1) return;
+              int resultCount = value - 1;
+              result(resultCount);
+            },
           ),
 
-          const Padding(
-            padding: EdgeInsetsGeometry.symmetric(horizontal: 6),
+          Padding(
+            padding: const EdgeInsetsGeometry.symmetric(horizontal: 6),
             child: Text(
-              '1kg',
-              style: TextStyle(
+              '$value$suffixText',
+              style: const TextStyle(
                 fontSize: 15,
                 fontWeight: FontWeight.bold,
               ),
@@ -53,7 +57,10 @@ class QuantityWidget extends StatelessWidget {
           _QuantityButton(
             icon: Icons.add,
             color: CustomColors.customSwatchColor,
-            onPressed: () {},
+            onPressed: () {
+              int resultCount = value + 1;
+              result(resultCount);
+            },
           ),
 
         ],
