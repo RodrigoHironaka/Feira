@@ -74,7 +74,6 @@ class _ProductScreenState extends State<ProductScreen> {
                             setState(() {
                               cartItemQuantity = quantity;
                             });
-
                           },
                         ),
                       ],

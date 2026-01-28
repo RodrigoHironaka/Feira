@@ -30,8 +30,8 @@ class QuantityWidget extends StatelessWidget {
       ),
 
       child: Row(
+        mainAxisSize: MainAxisSize.min,
         children: [
-
 
           _QuantityButton(
             icon: Icons.remove,
@@ -43,7 +43,6 @@ class QuantityWidget extends StatelessWidget {
             },
           ),
 
-
           Padding(
             padding: const EdgeInsetsGeometry.symmetric(horizontal: 6),
             child: Text(
@@ -54,7 +53,6 @@ class QuantityWidget extends StatelessWidget {
               ),
             ), 
           ),
-
 
           _QuantityButton(
             icon: Icons.add,
